@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('https://images.alphacoders.com/131/thumb-1920-1311951.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* altura do cabeçalho */
+}
+
+.footer {
+    background-image: url('https://images.alphacoders.com/605/thumb-1920-605592.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* altura do rodapé */
+}
+
+.content {
+    height: 100vh; /* ajuste conforme o conteúdo */
+    background-color: #f0f0f0; /* Cor de fundo do meio */
+}
