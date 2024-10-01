@@ -3,21 +3,26 @@ body {
     padding: 0;
 }
 
-.header {
-    background-image: url('https://images.alphacoders.com/131/thumb-1920-1311951.jpg');
+.top-section {
+    background-image: url('caminho/para/o-wallpaper-superior.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vh; /* altura do cabeçalho */
+    height: 50vh; /* Define a altura da seção superior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cor do texto */
+    text-align: center;
 }
 
-.footer {
-    background-image: url('https://images.alphacoders.com/605/thumb-1920-605592.png');
+.bottom-section {
+    background-image: url('caminho/para/o-wallpaper-inferior.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vh; /* altura do rodapé */
-}
-
-.content {
-    height: 100vh; /* ajuste conforme o conteúdo */
-    background-color: #f0f0f0; /* Cor de fundo do meio */
+    height: 50vh; /* Define a altura da seção inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cor do texto */
+    text-align: center;
 }
