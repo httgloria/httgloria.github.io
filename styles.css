@@ -18,11 +18,8 @@ body {
 .bottom-section {
     background-image: url('https://images6.alphacoders.com/134/thumb-1920-1345660.png');
     background-size: cover;
-    background-position: center;
-    height: 50vh; /* Define a altura da seção inferior */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white; /* Cor do texto */
-    text-align: center;
+    background-position: center 50px; /* 'center' mantém centralizado horizontalmente, 50px move para baixo */
+     background-repeat: no-repeat;
+     height: 500px;
+     width: 500px;
 }
